@@ -110,7 +110,7 @@ resource queuereader 'Microsoft.App/containerApps@2022-03-01' = {
           env: [
             {
               name: 'QueueName'
-              value: 'foo'
+              value: 'demoquue'
             }
             {
               name: 'QueueConnectionString'
